@@ -1,17 +1,33 @@
-# sahubyte_user
+# Sahubyte User
 
-A new Flutter project.
+Customer-facing Flutter application for booking hardware and software repair services. Users can raise an enquiry, choose device and problem details, attach supporting files, share a service location and follow the job through completion.
 
-## Getting Started
+## Product flow
 
-This project is a starting point for a Flutter application.
+- Mobile authentication and account onboarding
+- Device brand, category and issue selection
+- Service enquiry creation and status tracking
+- Location capture with maps and geocoding
+- File attachments and downloadable job documents
+- Job card, parts and service summary views
+- Persistent sessions and REST API integration
 
-A few resources to get you started if this is your first Flutter project:
+## Engineering highlights
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+- MVVM-style separation across views, view models, repositories and network services
+- Reusable API response and exception handling
+- Responsive Flutter UI for Android, web and desktop targets
+- Local persistence with `shared_preferences`
+- Maps, location, PDF and file workflows
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Tech stack
+
+Flutter, Dart, REST APIs, HTTP, Shared Preferences, Flutter Map, Geolocator, Geocoding, File Picker and PDF.
+
+## Related application
+
+The connected service-provider workflow is available in [Sahubyte Vendor](https://github.com/ashish-kumar108/sahubyte_vendor).
+
+## Note
+
+This repository demonstrates the Flutter client architecture and product workflow. A compatible backend service is required for live data.
